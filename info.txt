@@ -1,2 +1,3 @@
 npx create-react-app ./
 yarn add styled-components react-router-dom
+npx add styled-components react-router-dom
