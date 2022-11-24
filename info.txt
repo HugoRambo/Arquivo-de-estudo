@@ -1,3 +1,7 @@
 npx create-react-app ./
 yarn add styled-components react-router-dom
-npx add styled-components react-router-dom
+npm add styled-components react-router-dom
+
+https://www.youtube.com/watch?v=LjJFu6Y6MrU&list=PLAMpf2Pxx82vgZihkiZk6AXoMe14qDddH&index=8
+
+minuto 09:330
