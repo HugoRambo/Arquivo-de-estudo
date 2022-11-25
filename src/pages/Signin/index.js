@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
-import * as C from "./styles";
+import styles from "./styles.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 
@@ -30,31 +30,33 @@ const Signin = () => {
   };
 
   return (
-    <C.Container>
-      <C.Label>SISTEMA DE LOGIN</C.Label>
-      <C.Content>
+    <div className={styles.container}>
+      <label className={styles.label}>SISTEMA DE LOGIN</label>
+      <div className={styles.contentGeral}>
         <Input
+          className={styles.buttomPlay}
           type="email"
           placeholder="Digite seu E-mail"
           value={email}
           onChange={(e) => [setEmail(e.target.value), setError("")]}
         />
-        <Input
+          <Input
+          className={styles.buttomPlay}
           type="password"
           placeholder="Digite sua Senha"
           value={senha}
           onChange={(e) => [setSenha(e.target.value), setError("")]}
         />
-        <C.labelError>{error}</C.labelError>
-        <Button Text="Entrar" onClick={handleLogin} />
-        <C.LabelSignup>
-          Não tem uma conta?
-          <C.Strong>
-            <Link to="/signup">&nbsp;Registre-se</Link>
-          </C.Strong>
-        </C.LabelSignup>
-      </C.Content>
-    </C.Container>
+        <label className={styles.labelError}>{error}</label>
+        
+        <Button className={styles.buttomPlay} Text="Entrar" onClick={handleLogin} />
+        <label className={styles.labelSignup}> Não tem uma conta?
+        <strong className={styles.strong}>
+        <Link to="/signup">&nbsp;Registre-se</Link>
+        </strong>
+        </label>
+      </div>
+    </div>
   );
 };
 

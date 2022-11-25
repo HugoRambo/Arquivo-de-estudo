@@ -5,3 +5,10 @@ npm add styled-components react-router-dom
 https://www.youtube.com/watch?v=LjJFu6Y6MrU&list=PLAMpf2Pxx82vgZihkiZk6AXoMe14qDddH&index=8
 
 minuto 09:330
+
+firebase, criação projeto
+npm install firebase
+
+minuto 22
+
+https://www.youtube.com/watch?v=XjNs_OM6m8A conectar firebase ao banco de dados
