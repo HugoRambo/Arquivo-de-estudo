@@ -1,5 +1,5 @@
 {
-  "name": "programa",
+  "name": "programa-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,9 +9,9 @@
     "firebase": "^9.14.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
